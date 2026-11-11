@@ -1,0 +1,388 @@
+[
+  {
+    "candidate": {
+      "name": "короткая постановка",
+      "system": "Отнеси обращение в поддержку платёжного сервиса к одной категории: платежи, возвраты, доступ, тарифы, интеграция, другое. Ответь одним словом.",
+      "body": {},
+      "max_tokens": 16
+    },
+    "rows": [
+      {
+        "id": "T-082",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.670705699998507,
+        "ttft_s": 1.6011890999998286,
+        "usage": {
+          "input_tokens": 62,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.670705699998507,
+          "cost": 1.48e-05,
+          "weighted": 65.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-037",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.2983960999990813,
+        "ttft_s": 1.1907825999987836,
+        "usage": {
+          "input_tokens": 69,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.2983960999990813,
+          "cost": 1.6200000000000004e-05,
+          "weighted": 72.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-073",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.9122645000006742,
+        "ttft_s": 0.8357852000008279,
+        "usage": {
+          "input_tokens": 74,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.9122645000006742,
+          "cost": 1.72e-05,
+          "weighted": 77.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-085",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.42959669999982,
+        "ttft_s": 1.3111697000003915,
+        "usage": {
+          "input_tokens": 78,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.42959669999982,
+          "cost": 1.8e-05,
+          "weighted": 81.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-040",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.1926548999999795,
+        "ttft_s": 1.1209857000012562,
+        "usage": {
+          "input_tokens": 83,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.1926548999999795,
+          "cost": 1.9e-05,
+          "weighted": 86.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      }
+    ],
+    "summary": {
+      "кандидат": "короткая постановка",
+      "точность": 0.8,
+      "p50, с": 1.2983960999990813,
+      "p95, с": 1.670705699998507,
+      "первый токен p50, с": 1.1907825999987836,
+      "токенов на обращение": 76.2,
+      "входных токенов на обращение": 73.2,
+      "взвешенных на обращение": 76.2,
+      "цена за 1000, у.е.": 0.017040000000000003,
+      "взвешенных в месяц, млн": 114.3,
+      "цена в месяц, у.е.": 25.560000000000002,
+      "ошибки в месяц, у.е.": 5999999.999999999,
+      "полная цена в месяц, у.е.": 6000025.559999999,
+      "обрезано": 0,
+      "сбоев": 0
+    }
+  },
+  {
+    "candidate": {
+      "name": "постановка с правилами",
+      "system": "Отнеси обращение в поддержку платёжного сервиса к одной категории: платежи, возвраты, доступ, тарифы, интеграция, другое. Ответь одним словом.\nПравила:\n- платежи: платёж не проходит, двойное списание, деньги не дошли, переводы, лимиты;\n- возвраты: просьба вернуть деньги за покупку, статус возврата, спор через банк;\n- доступ: вход, пароль, смена номера, блокировка, второй фактор;\n- тарифы: комиссии, абонентская плата, смена тарифа, вывод выручки;\n- интеграция: API, ключи, уведомления о платежах;\n- другое: всё остальное; при сомнении выбирай «другое».",
+      "body": {},
+      "max_tokens": 16
+    },
+    "rows": [
+      {
+        "id": "T-082",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0938272999992478,
+        "ttft_s": 0.9871165999993536,
+        "usage": {
+          "input_tokens": 207,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0938272999992478,
+          "cost": 4.380000000000001e-05,
+          "weighted": 210.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-037",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.8882764000009047,
+        "ttft_s": 0.8284736999994493,
+        "usage": {
+          "input_tokens": 214,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.8882764000009047,
+          "cost": 4.52e-05,
+          "weighted": 217.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-073",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0514648999997007,
+        "ttft_s": 0.9831574999989243,
+        "usage": {
+          "input_tokens": 219,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0514648999997007,
+          "cost": 4.6200000000000005e-05,
+          "weighted": 222.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-085",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0436756999988575,
+        "ttft_s": 0.9347629999992932,
+        "usage": {
+          "input_tokens": 223,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0436756999988575,
+          "cost": 4.7e-05,
+          "weighted": 226.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-040",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.8980969999993249,
+        "ttft_s": 0.8306683999999223,
+        "usage": {
+          "input_tokens": 228,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.8980969999993249,
+          "cost": 4.8e-05,
+          "weighted": 231.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      }
+    ],
+    "summary": {
+      "кандидат": "постановка с правилами",
+      "точность": 0.8,
+      "p50, с": 1.0436756999988575,
+      "p95, с": 1.0938272999992478,
+      "первый токен p50, с": 0.9347629999992932,
+      "токенов на обращение": 221.2,
+      "входных токенов на обращение": 218.2,
+      "взвешенных на обращение": 221.2,
+      "цена за 1000, у.е.": 0.04604,
+      "взвешенных в месяц, млн": 331.8,
+      "цена в месяц, у.е.": 69.06,
+      "ошибки в месяц, у.е.": 5999999.999999999,
+      "полная цена в месяц, у.е.": 6000069.059999999,
+      "обрезано": 0,
+      "сбоев": 0
+    }
+  },
+  {
+    "candidate": {
+      "name": "правила + рассуждение",
+      "system": "Отнеси обращение в поддержку платёжного сервиса к одной категории: платежи, возвраты, доступ, тарифы, интеграция, другое. Ответь одним словом.\nПравила:\n- платежи: платёж не проходит, двойное списание, деньги не дошли, переводы, лимиты;\n- возвраты: просьба вернуть деньги за покупку, статус возврата, спор через банк;\n- доступ: вход, пароль, смена номера, блокировка, второй фактор;\n- тарифы: комиссии, абонентская плата, смена тарифа, вывод выручки;\n- интеграция: API, ключи, уведомления о платежах;\n- другое: всё остальное; при сомнении выбирай «другое».",
+      "body": {
+        "thinking": {
+          "type": "enabled",
+          "budget_tokens": 1024
+        }
+      },
+      "max_tokens": 2048
+    },
+    "rows": [
+      {
+        "id": "T-082",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.360079999998561,
+        "ttft_s": 1.3600681999996596,
+        "usage": {
+          "input_tokens": 232,
+          "output_tokens": 53,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.360079999998561,
+          "cost": 8.880000000000002e-05,
+          "weighted": 285.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-037",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.487690100000691,
+        "ttft_s": 1.487684800000352,
+        "usage": {
+          "input_tokens": 239,
+          "output_tokens": 53,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.487690100000691,
+          "cost": 9.020000000000001e-05,
+          "weighted": 292.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-073",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.2081775000006019,
+        "ttft_s": 1.2081736000000092,
+        "usage": {
+          "input_tokens": 244,
+          "output_tokens": 66,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.2081775000006019,
+          "cost": 0.0001016,
+          "weighted": 310.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-085",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.9041921000007278,
+        "ttft_s": 1.8833962999997311,
+        "usage": {
+          "input_tokens": 248,
+          "output_tokens": 155,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.9041921000007278,
+          "cost": 0.0001736,
+          "weighted": 403.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-040",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.7837175000004208,
+        "ttft_s": 1.7555169999995996,
+        "usage": {
+          "input_tokens": 253,
+          "output_tokens": 59,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.7837175000004208,
+          "cost": 9.78e-05,
+          "weighted": 312.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      }
+    ],
+    "summary": {
+      "кандидат": "правила + рассуждение",
+      "точность": 0.8,
+      "p50, с": 1.487690100000691,
+      "p95, с": 1.9041921000007278,
+      "первый токен p50, с": 1.487684800000352,
+      "токенов на обращение": 320.4,
+      "входных токенов на обращение": 243.2,
+      "взвешенных на обращение": 320.4,
+      "цена за 1000, у.е.": 0.1104,
+      "взвешенных в месяц, млн": 480.59999999999997,
+      "цена в месяц, у.е.": 165.6,
+      "ошибки в месяц, у.е.": 5999999.999999999,
+      "полная цена в месяц, у.е.": 6000165.599999999,
+      "обрезано": 0,
+      "сбоев": 0
+    }
+  }
+]

@@ -1,0 +1,754 @@
+[
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 16,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "с меня два раза сняли 3490 за один заказ!!! разберитесь"
+        }
+      ],
+      "system": "Отнеси обращение в поддержку платёжного сервиса к одной категории: платежи, возвраты, доступ, тарифы, интеграция, другое. Ответь одним словом.",
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "1ff28dc7-508c-4579-b9ba-eea86a335d52",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "платежи"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 69,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 2,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Объясни, почему небо голубое."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "40ea2d51-8590-4ad0-9f2a-e392ee31da23",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "Небо"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 17,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 1,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Возврат на карту занимает от трёх до десяти рабочих дней и зависит от банка клиента."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "581a2c32-ba56-4520-a708-b15647511e98",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "Here"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 28,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 1,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "A refund to the card takes three to ten business days and depends on the client's bank."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "21cb6e4e-db76-4519-9111-d911406170c6",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "退还"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 1,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Суточный лимит обнуляется в полночь по московскому времени."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "67ca639e-4fde-42a4-98a3-a67bfe1e87cd",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "П"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 22,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 1,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "The daily limit resets at midnight Moscow time."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "6bc2f62c-debd-47be-9a27-5a4ee3ea1e5d",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "The"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 14,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 1,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "c4de6875-e8fc-4fa6-bd8d-179ef6ce2aa3",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "c67d5f36-f564-4d9d-88e9-9032acf21787",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "8e33475a-0d23-4b8c-9714-6770318767f5",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "df8fa054-efab-41aa-a774-ccb344c9b0aa",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "cb1d2bdf-c9ba-4cd8-9e01-32a22457edf4",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 1.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "6884a065-07ff-4df1-962d-313bde4035ab",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 1.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "72e75bf3-8970-4571-8f68-209b945ab034",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 1.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "a6c42b21-c64c-4d9e-94ec-14d87d626652",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 1.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "18e1840f-e8b1-42ed-aff3-1f485bb8e949",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 8,
+      "temperature": 1.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Продолжи фразу одним словом, без точки: «Сегодня погода»"
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "c630ba07-1464-4257-b16f-28ccf68ebb50",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "хорошая"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 23,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 3,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 40,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Меня зовут Аня. Запомни это."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "0642dd95-6c94-401c-8650-906e4f0b741b",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "Приятно познакомиться, Аня! Я запомнил. Чем могу помочь?"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 18,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 21,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 16,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Как меня зовут? Ответь одним словом."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "b9908767-5517-4e20-823f-415168f31a58",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "Извините, я не знаю вашего имени — вы его не сооб"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 16,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 16,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 16,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Меня зовут Аня. Запомни это."
+        },
+        {
+          "role": "assistant",
+          "content": "Приятно познакомиться, Аня! Я запомнил. Чем могу помочь?"
+        },
+        {
+          "role": "user",
+          "content": "Как меня зовут? Ответь одним словом."
+        }
+      ],
+      "thinking": {
+        "type": "disabled"
+      }
+    },
+    "response": {
+      "id": "7f5f930f-de8c-4d93-adf2-11c170c82277",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "text",
+          "text": "Аня"
+        }
+      ],
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 55,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 2,
+        "service_tier": "standard"
+      }
+    }
+  },
+  {
+    "request": {
+      "model": "deepseek-flash",
+      "max_tokens": 16,
+      "temperature": 0.0,
+      "messages": [
+        {
+          "role": "user",
+          "content": "с меня два раза сняли 3490 за один заказ!!! разберитесь"
+        }
+      ],
+      "system": "Отнеси обращение в поддержку платёжного сервиса к одной категории: платежи, возвраты, доступ, тарифы, интеграция, другое. Ответь одним словом.",
+      "thinking": {
+        "type": "enabled",
+        "budget_tokens": 1024
+      }
+    },
+    "response": {
+      "id": "4ffc881c-6fb4-40d7-9e54-37b59d14dfeb",
+      "type": "message",
+      "role": "assistant",
+      "model": "deepseek-flash",
+      "content": [
+        {
+          "type": "thinking",
+          "thinking": "We need answer one word category. Russian: \"с меня два раза сня",
+          "signature": "4ffc881c-6fb4-40d7-9e54-37b59d14dfeb"
+        }
+      ],
+      "stop_reason": "max_tokens",
+      "stop_sequence": null,
+      "usage": {
+        "input_tokens": 94,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "output_tokens": 16,
+        "service_tier": "standard"
+      }
+    }
+  }
+]

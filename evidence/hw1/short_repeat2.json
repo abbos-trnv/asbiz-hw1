@@ -1,0 +1,629 @@
+[
+  {
+    "candidate": {
+      "name": "короткая постановка",
+      "system": "Отнеси обращение в поддержку платёжного сервиса к одной категории: платежи, возвраты, доступ, тарифы, интеграция, другое. Ответь одним словом.",
+      "body": {},
+      "max_tokens": 16
+    },
+    "rows": [
+      {
+        "id": "T-082",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.1931483999997,
+        "ttft_s": 1.1370247999984713,
+        "usage": {
+          "input_tokens": 62,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.1931483999997,
+          "cost": 1.48e-05,
+          "weighted": 65.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-037",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0205446999989363,
+        "ttft_s": 0.9317369000000326,
+        "usage": {
+          "input_tokens": 69,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0205446999989363,
+          "cost": 1.6200000000000004e-05,
+          "weighted": 72.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-073",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.9908300999995845,
+        "ttft_s": 0.8971088999987842,
+        "usage": {
+          "input_tokens": 74,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.9908300999995845,
+          "cost": 1.72e-05,
+          "weighted": 77.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-085",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.115246899998965,
+        "ttft_s": 1.0500680999994074,
+        "usage": {
+          "input_tokens": 78,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.115246899998965,
+          "cost": 1.8e-05,
+          "weighted": 81.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-040",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.2085163000010652,
+        "ttft_s": 1.0596407000011823,
+        "usage": {
+          "input_tokens": 83,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.2085163000010652,
+          "cost": 1.9e-05,
+          "weighted": 86.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-004",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.2382809999999154,
+        "ttft_s": 1.183166099999653,
+        "usage": {
+          "input_tokens": 82,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.2382809999999154,
+          "cost": 1.8800000000000003e-05,
+          "weighted": 85.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-025",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.036384500001077,
+        "ttft_s": 0.9537087000007887,
+        "usage": {
+          "input_tokens": 64,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.036384500001077,
+          "cost": 1.5200000000000002e-05,
+          "weighted": 67.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-049",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.5983499999983906,
+        "ttft_s": 1.5320357999989938,
+        "usage": {
+          "input_tokens": 72,
+          "output_tokens": 2,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.5983499999983906,
+          "cost": 1.6e-05,
+          "weighted": 74.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-047",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.1893467000008968,
+        "ttft_s": 1.1290417000000161,
+        "usage": {
+          "input_tokens": 62,
+          "output_tokens": 2,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.1893467000008968,
+          "cost": 1.4e-05,
+          "weighted": 64.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-038",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.3153558000012708,
+        "ttft_s": 1.1889910000008967,
+        "usage": {
+          "input_tokens": 71,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.3153558000012708,
+          "cost": 1.66e-05,
+          "weighted": 74.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-029",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.2784068000000843,
+        "ttft_s": 1.212992499999018,
+        "usage": {
+          "input_tokens": 71,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.2784068000000843,
+          "cost": 1.66e-05,
+          "weighted": 74.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-046",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.9377578999992693,
+        "ttft_s": 0.8800020999988192,
+        "usage": {
+          "input_tokens": 85,
+          "output_tokens": 2,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.9377578999992693,
+          "cost": 1.86e-05,
+          "weighted": 87.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-034",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.1467216999990342,
+        "ttft_s": 1.054814199998873,
+        "usage": {
+          "input_tokens": 75,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.1467216999990342,
+          "cost": 1.74e-05,
+          "weighted": 78.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-056",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0849276999997528,
+        "ttft_s": 0.9590649999991001,
+        "usage": {
+          "input_tokens": 63,
+          "output_tokens": 2,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0849276999997528,
+          "cost": 1.4200000000000001e-05,
+          "weighted": 65.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-020",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.9631641999985732,
+        "ttft_s": 0.8996600999998918,
+        "usage": {
+          "input_tokens": 76,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.9631641999985732,
+          "cost": 1.76e-05,
+          "weighted": 79.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-079",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.1556980999994266,
+        "ttft_s": 1.0300272999993467,
+        "usage": {
+          "input_tokens": 62,
+          "output_tokens": 4,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.1556980999994266,
+          "cost": 1.5600000000000003e-05,
+          "weighted": 66.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-013",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0505152999994607,
+        "ttft_s": 0.9818455000004178,
+        "usage": {
+          "input_tokens": 80,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0505152999994607,
+          "cost": 1.84e-05,
+          "weighted": 83.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-028",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0396285999995598,
+        "ttft_s": 0.979549900001075,
+        "usage": {
+          "input_tokens": 74,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0396285999995598,
+          "cost": 1.72e-05,
+          "weighted": 77.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-065",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.714836600000126,
+        "ttft_s": 0.6535659000001033,
+        "usage": {
+          "input_tokens": 77,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.714836600000126,
+          "cost": 1.7800000000000002e-05,
+          "weighted": 80.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-010",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.197558800000479,
+        "ttft_s": 1.1017120000014984,
+        "usage": {
+          "input_tokens": 83,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.197558800000479,
+          "cost": 1.9e-05,
+          "weighted": 86.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-059",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.6711416999987705,
+        "ttft_s": 0.6001527999997052,
+        "usage": {
+          "input_tokens": 75,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.6711416999987705,
+          "cost": 1.74e-05,
+          "weighted": 78.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-080",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.066834100000051,
+        "ttft_s": 1.0008388000005652,
+        "usage": {
+          "input_tokens": 73,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.066834100000051,
+          "cost": 1.7e-05,
+          "weighted": 76.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-052",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.034325099999478,
+        "ttft_s": 0.9581498999996256,
+        "usage": {
+          "input_tokens": 75,
+          "output_tokens": 2,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.034325099999478,
+          "cost": 1.66e-05,
+          "weighted": 77.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-014",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.8705429000001459,
+        "ttft_s": 0.7966481999992538,
+        "usage": {
+          "input_tokens": 81,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.8705429000001459,
+          "cost": 1.86e-05,
+          "weighted": 84.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-074",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.1724236000009114,
+        "ttft_s": 1.1024858000000677,
+        "usage": {
+          "input_tokens": 74,
+          "output_tokens": 4,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.1724236000009114,
+          "cost": 1.8e-05,
+          "weighted": 78.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-061",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.016608300000371,
+        "ttft_s": 0.9246693999994022,
+        "usage": {
+          "input_tokens": 75,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.016608300000371,
+          "cost": 1.74e-05,
+          "weighted": 78.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-007",
+        "ok": false,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0396232999992208,
+        "ttft_s": 0.9610322999997152,
+        "usage": {
+          "input_tokens": 80,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0396232999992208,
+          "cost": 1.84e-05,
+          "weighted": 83.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-032",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.154128000000128,
+        "ttft_s": 1.094127500000468,
+        "usage": {
+          "input_tokens": 66,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.154128000000128,
+          "cost": 1.5600000000000003e-05,
+          "weighted": 69.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-086",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 1.0922840999992331,
+        "ttft_s": 1.0275716999985889,
+        "usage": {
+          "input_tokens": 60,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 1.0922840999992331,
+          "cost": 1.4400000000000001e-05,
+          "weighted": 63.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      },
+      {
+        "id": "T-026",
+        "ok": true,
+        "failed": false,
+        "truncated": false,
+        "latency_s": 0.9678117999992537,
+        "ttft_s": 0.8976481999998214,
+        "usage": {
+          "input_tokens": 77,
+          "output_tokens": 3,
+          "cache_read_tokens": 0,
+          "cache_write_tokens": 0,
+          "latency_s": 0.9678117999992537,
+          "cost": 1.7800000000000002e-05,
+          "weighted": 80.0,
+          "calls": 1,
+          "retries": 0,
+          "cached": 0
+        }
+      }
+    ],
+    "summary": {
+      "кандидат": "короткая постановка",
+      "точность": 0.8333333333333334,
+      "p50, с": 1.066834100000051,
+      "p95, с": 1.3153558000012708,
+      "первый токен p50, с": 0.9818455000004178,
+      "токенов на обращение": 76.2,
+      "входных токенов на обращение": 73.3,
+      "взвешенных на обращение": 76.2,
+      "цена за 1000, у.е.": 0.01698,
+      "взвешенных в месяц, млн": 114.3,
+      "цена в месяц, у.е.": 25.47,
+      "ошибки в месяц, у.е.": 4999999.999999999,
+      "полная цена в месяц, у.е.": 5000025.469999999,
+      "обрезано": 0,
+      "сбоев": 0
+    }
+  }
+]
