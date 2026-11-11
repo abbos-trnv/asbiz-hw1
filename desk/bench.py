@@ -58,6 +58,18 @@ CANDIDATES = [
     Candidate("короткая постановка", SHORT),
     Candidate("постановка с правилами", DETAILED),
     Candidate("правила + рассуждение", DETAILED, body=THINKING, max_tokens=2048),
+    Candidate(
+        "правила + два примера",
+        DETAILED + """
+Примеры разбора:
+Обращение: «После обновления нашего SDK проверка подписи вебхука выдаёт ошибку».
+Разбор: вопрос о SDK и подписи уведомлений относится к интеграции.
+Ответ: интеграция
+Обращение: «Когда по условиям тарифа вы перечисляете магазину выручку за неделю?».
+Разбор: сроки вывода выручки относятся к тарифам, а не к платежам покупателей.
+Ответ: тарифы
+На новое обращение также отвечай только названием категории.""",
+    ),
 ]
 
 
@@ -150,10 +162,16 @@ def summarize(
         "p95, с": percentile(latencies, 0.95),
         "первый токен p50, с": percentile(ttfts, 0.5),
         "токенов на обращение": per(total.total_tokens),
+        "входных токенов на обращение": per(total.input_tokens),
         "взвешенных на обращение": per(total.weighted),
         "цена за 1000, у.е.": 1000 * per(total.cost),
         "взвешенных в месяц, млн": per(total.weighted) * flow_per_day * 30 / 1e6,
         "цена в месяц, у.е.": per(total.cost) * flow_per_day * 30,
+        "ошибки в месяц, у.е.": (1 - sum(r.ok for r in rows) / max(1, len(rows)))
+        * flow_per_day * 30 * 2 * 10,
+        "полная цена в месяц, у.е.": per(total.cost) * flow_per_day * 30
+        + (1 - sum(r.ok for r in rows) / max(1, len(rows)))
+        * flow_per_day * 30 * 2 * 10,
         "обрезано": sum(r.truncated for r in done),
         "сбоев": len(rows) - len(done),
     }
